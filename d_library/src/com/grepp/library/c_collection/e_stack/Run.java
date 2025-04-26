@@ -1,0 +1,19 @@
+package com.grepp.library.c_collection.e_stack;
+
+import java.util.Stack;
+
+public class Run {
+
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < 10; i++) {
+            stack.push(i);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(stack);
+            System.out.println(stack.pop());
+        }
+    }
+
+}
