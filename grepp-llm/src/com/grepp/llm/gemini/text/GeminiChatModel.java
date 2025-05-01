@@ -27,7 +27,7 @@ public class GeminiChatModel implements ChatModel {
             + "/gemini-" + version + "-flash:generateContent";
 
         this.API_KEY = apiKey;
-            //"";
+            //""; 삭제
 
     }
 
