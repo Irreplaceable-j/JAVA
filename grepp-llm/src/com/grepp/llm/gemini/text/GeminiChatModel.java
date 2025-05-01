@@ -27,7 +27,7 @@ public class GeminiChatModel implements ChatModel {
             + "/gemini-" + version + "-flash:generateContent";
 
         this.API_KEY = apiKey;
-            //"AIzaSyCL87IzhnaN3q3_gVj61xeIpxrOQbL_qlI";
+            //"";
 
     }
 
