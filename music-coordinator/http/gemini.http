@@ -1,0 +1,12 @@
+### POST request to example server
+POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key= // API 키 삭제
+Content-Type: application/json
+
+{
+  "contents": [{
+    "parts":[{"text": "오늘 저녁 메뉴 추천해줘"}]
+  }]
+}
+
+
+###
